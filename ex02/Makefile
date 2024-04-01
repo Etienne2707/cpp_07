@@ -1,10 +1,10 @@
-NAME 		= 	Converter
+NAME 		= 	Array
 
-SRCS		=	main.cpp ScalarConverter.cpp
+SRCS		=	main.cpp 
 OBJS		=	$(SRCS:.cpp=.o)
 
 CC = clang++
-CFLAGS = -std=c++03 -Wall -Wextra -Werror -gdwarf-4 -Wno-unused
+CFLAGS = -Wall -Wextra -Werror -gdwarf-4
  CFLAGS += -g3 
 # CFLAGS += -fsanitize=address
 ifeq ($(DEBUG),true)
